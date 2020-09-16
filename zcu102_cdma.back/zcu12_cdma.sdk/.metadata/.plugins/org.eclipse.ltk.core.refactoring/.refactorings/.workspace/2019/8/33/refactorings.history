@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bsp_apu_xaxicdma_example_simple_poll_1&apos; to &apos;cdma_example&apos;" description="Rename resource &apos;bsp_apu_xaxicdma_example_simple_poll_1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/bsp_apu_xaxicdma_example_simple_poll_1" name="cdma_example" stamp="1566054709832" updateReferences="true"/>
+</session>

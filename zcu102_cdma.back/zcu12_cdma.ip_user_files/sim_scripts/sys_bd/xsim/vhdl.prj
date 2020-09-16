@@ -1,0 +1,18 @@
+vhdl xil_defaultlib  \
+"../../../bd/sys_bd/ip/sys_bd_axi_cdma_0_0/sim/sys_bd_axi_cdma_0_0.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_axi_bram_ctrl_0_0/sim/sys_bd_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_microblaze_0_0/sim/sys_bd_microblaze_0_0.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_dlmb_v10_1/sim/sys_bd_dlmb_v10_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_ilmb_v10_1/sim/sys_bd_ilmb_v10_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_dlmb_bram_if_cntlr_1/sim/sys_bd_dlmb_bram_if_cntlr_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_ilmb_bram_if_cntlr_1/sim/sys_bd_ilmb_bram_if_cntlr_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_mdm_1_1/sim/sys_bd_mdm_1_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_rst_ps8_0_99M_1/sim/sys_bd_rst_ps8_0_99M_1.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_microblaze_1_0/sim/sys_bd_microblaze_1_0.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_dlmb_v10_2/sim/sys_bd_dlmb_v10_2.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_ilmb_v10_2/sim/sys_bd_ilmb_v10_2.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_dlmb_bram_if_cntlr_2/sim/sys_bd_dlmb_bram_if_cntlr_2.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_ilmb_bram_if_cntlr_2/sim/sys_bd_ilmb_bram_if_cntlr_2.vhd" \
+"../../../bd/sys_bd/ip/sys_bd_axi_smc_1/bd_0/ip/ip_1/sim/bd_389c_psr_aclk_0.vhd" \
+
+nosort

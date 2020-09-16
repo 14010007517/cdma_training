@@ -1,0 +1,25 @@
+23:48:13 **** Incremental Build of configuration Debug for project cdma_example ****
+make all 
+'Building file: ../src/xaxicdma_example_simple_poll.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxicdma_example_simple_poll.o" -I../../bsp_apu/psu_cortexa53_0/include -MMD -MP -MF"src/xaxicdma_example_simple_poll.d" -MT"src/xaxicdma_example_simple_poll.o" -o "src/xaxicdma_example_simple_poll.o" "../src/xaxicdma_example_simple_poll.c"
+../src/xaxicdma_example_simple_poll.c: In function 'DoSimplePollTransfer':
+../src/xaxicdma_example_simple_poll.c:236:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/xaxicdma_example_simple_poll.c'
+' '
+'Building target: cdma_example.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bsp_apu/psu_cortexa53_0/lib -o "cdma_example.elf"  ./src/xaxicdma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cdma_example.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size cdma_example.elf  |tee "cdma_example.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41572	   2392	  21408	  65372	   ff5c	cdma_example.elf
+'Finished building: cdma_example.elf.size'
+' '
+
+23:48:14 Build Finished (took 670ms)
+

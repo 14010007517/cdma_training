@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3_AR72075 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Sep 12 11:25:00 2020
+# Process ID: 20016
+# Current directory: /home/alvin/xilinx/mpsoc/customers/jinyou/bspbram/bramback/zcu102_cdma
+# Command line: vivado zcu12_cdma.xpr
+# Log file: /home/alvin/xilinx/mpsoc/customers/jinyou/bspbram/bramback/zcu102_cdma/vivado.log
+# Journal file: /home/alvin/xilinx/mpsoc/customers/jinyou/bspbram/bramback/zcu102_cdma/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project zcu12_cdma.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/alvin/xilinx/mpsoc/customers/jinyou/bspbram/bramback/zcu102_cdma/zcu12_cdma.srcs/sources_1/bd/sys_bd/sys_bd.bd}

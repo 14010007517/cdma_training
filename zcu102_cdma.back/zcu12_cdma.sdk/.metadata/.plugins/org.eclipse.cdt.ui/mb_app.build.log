@@ -1,0 +1,24 @@
+23:38:02 **** Incremental Build of configuration Debug for project mb_app ****
+make all 
+'Building file: ../src/mb_app.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_app.o" -I../../bsp_microblaze/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_app.d" -MT"src/mb_app.o" -o "src/mb_app.o" "../src/mb_app.c"
+../src/mb_app.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+'Finished building: ../src/mb_app.c'
+' '
+'Building target: mb_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bsp_microblaze/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_app.elf"  ./src/mb_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mb_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mb_app.elf  |tee "mb_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2128	    268	   3108	   5504	   1580	mb_app.elf
+'Finished building: mb_app.elf.size'
+' '
+
+23:38:03 Build Finished (took 572ms)
+
